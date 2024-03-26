@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
 
-            $table->foreignId('')->index();
+            $table->foreignId('category_id')->index();
             $table->foreignId('color_id')->nullable()->index();
-            $table->foreignId('discout_id')->nullable()->index();
+            $table->foreignId('discount_id')->nullable()->index();
             $table->foreignId('inventory_id')->nullable()->index();
             
 

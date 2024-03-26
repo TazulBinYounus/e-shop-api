@@ -16,7 +16,7 @@ class ProductSeeder extends Seeder
         $products = [
             [
                 'category_id' => 1,
-                'discout_id' => 1,
+                'discount_id' => 1,
                 'inventory_id' => 1,
                 'sku' => "20240325",
                 'slug' => 'product-1',
@@ -30,13 +30,12 @@ class ProductSeeder extends Seeder
                     "bn": "পণ্য -1 বিবরণ"
                 }]',
                 'size' => "L",
-                'price' => "100",
+                'price' => 100.00,
             ],
-
 
             [
                 'category_id' => 2,
-                'discout_id' => 2,
+                'discount_id' => 2,
                 'inventory_id' => 1,
                 'sku' => "20240326",
                 'slug' => 'product-2',
@@ -50,14 +49,14 @@ class ProductSeeder extends Seeder
                     "bn": "পণ্য -2 বিবরণ"
                 }]',
                 'size' => "M",
-                'price' => "100",
+                'price' => 150.00,
             ],
 
 
 
             [
                 'category_id' => 1,
-                'discout_id' => 1,
+                'discount_id' => 1,
                 'inventory_id' => 1,
                 'sku' => "20240327",
                 'slug' => 'product-3',
@@ -71,13 +70,13 @@ class ProductSeeder extends Seeder
                     "bn": "পণ্য -3 বিবরণ"
                 }]',
                 'size' => "XL",
-                'price' => "100",
+                'price' => 200.00,
             ],
 
 
             [
                 'category_id' => 3,
-                'discout_id' => 1,
+                'discount_id' => 1,
                 'inventory_id' => 1,
                 'sku' => "20240328",
                 'slug' => 'product-4',
@@ -91,12 +90,12 @@ class ProductSeeder extends Seeder
                     "bn": "পণ্য -4 বিবরণ"
                 }]',
                 'size' => "L",
-                'price' => "100",
+                'price' => 105.50,
             ],
 
             [
                 'category_id' => 4,
-                'discout_id' => 3,
+                'discount_id' => 3,
                 'inventory_id' => 1,
                 'sku' => "20240329",
                 'slug' => 'product-5',
@@ -110,12 +109,12 @@ class ProductSeeder extends Seeder
                     "bn": "পণ্য -5 বিবরণ"
                 }]',
                 'size' => "S",
-                'price' => "100",
+                'price' => 200.50,
             ],
 
             [
                 'category_id' => 5,
-                'discout_id' => 3,
+                'discount_id' => 3,
                 'inventory_id' => 1,
                 'sku' => "20240330",
                 'slug' => 'product-6',
@@ -129,7 +128,7 @@ class ProductSeeder extends Seeder
                     "bn": "পণ্য -6 বিবরণ"
                 }]',
                 'size' => "S",
-                'price' => "100",
+                'price' => 500.00,
             ],
 
            

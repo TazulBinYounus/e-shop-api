@@ -14,10 +14,10 @@ class DiscountSeeder extends Seeder
     public function run(): void
     {
         $discounts = [
-            ['amount' => 10, 'type' => 'percentage'],
-            ['amount' => 100, 'type' => 'fixed'],
-            ['amount' => 15, 'type' => 'percentage'],
-            ['amount' => 200, 'type' => 'fixed'],
+            ['amount' => 10.00, 'type' => 'percentage'],
+            ['amount' => 50.00, 'type' => 'fixed'],
+            ['amount' => 5.00, 'type' => 'percentage'],
+            ['amount' => 25.00, 'type' => 'fixed'],
         ];
     
         foreach ($discounts as $discount) {

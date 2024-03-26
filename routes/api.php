@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\API\CategoryController;
 use App\Http\Controllers\API\ProductController;
 use App\Http\Controllers\API\RegisterController;
 use Illuminate\Http\Request;
@@ -14,6 +15,7 @@ Route::controller(RegisterController::class)->group(function(){
 
 Route::middleware('auth:sanctum')->group( function () {
     Route::resource('products', ProductController::class);
+    Route::resource('category', CategoryController::class);
 });
 
 Route::get('/user', function (Request $request) {
