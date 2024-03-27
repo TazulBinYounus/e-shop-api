@@ -13,7 +13,7 @@ Route::controller(RegisterController::class)->group(function(){
 });
 
 
-Route::middleware('auth:sanctum')->group( function () {
+Route::middleware(['auth:sanctum', 'cors'])->group( function () {
     Route::resource('products', ProductController::class);
     Route::resource('category', CategoryController::class);
 });
